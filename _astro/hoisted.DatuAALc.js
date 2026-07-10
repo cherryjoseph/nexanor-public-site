@@ -1,0 +1,1 @@
+import"./hoisted.CCirxl9D.js";const t=document.querySelector("[data-jobs-track]"),c=document.querySelector("[data-jobs-prev]"),n=document.querySelector("[data-jobs-next]"),e=o=>{t&&t.scrollBy({left:o*Math.min(t.clientWidth*.85,420),behavior:"smooth"})};c?.addEventListener("click",()=>e(-1));n?.addEventListener("click",()=>e(1));
